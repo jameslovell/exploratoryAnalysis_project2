@@ -1,5 +1,3 @@
-require("ggplot2")
-
 NEI <- readRDS("summarySCC_PM25.rds")
 
 png("plot2.png")

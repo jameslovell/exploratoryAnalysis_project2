@@ -1,3 +1,5 @@
+require("ggplot2")
+
 NEI <- readRDS("summarySCC_PM25.rds")
 
 data <- subset(NEI,fips=='24510')
